@@ -1,18 +1,21 @@
 /* block specific CSS goes here */
 
+/* @TODO update locate into card file */
+.cards-container img {
+  width: 64px;
+}
+
 main .hero-container > div {
   max-width: unset;
 }
-  
+
 main .hero-container {
   padding: 0;
 }
-  
+
 main .hero {
   position: relative;
   padding: 32px;
-  height: 632px;
-  width: 1440px;
 }
 
 main .hero h1 {

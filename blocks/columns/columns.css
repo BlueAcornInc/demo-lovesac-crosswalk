@@ -1,10 +1,13 @@
-.columns > div {
-  display: flex;
-  flex-direction: column;
+.columns {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
-.columns img {
-  width: 100%;
+.columns > div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .columns > div > div {
